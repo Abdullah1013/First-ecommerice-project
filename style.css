@@ -1,0 +1,168 @@
+.header{
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+   
+}
+.heading{
+    font-size: 1.5rem;
+    word-spacing: 30px;
+}
+.nav-item{
+    padding: 0% 8%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.d-block{
+    height: 300px;
+    width: 300px;
+}
+
+/* carousal section */
+#backgrounds{
+    margin: 0%;
+    text-align: center;
+    background-color: beige;
+}
+.imgs{
+    margin: 0%;
+    padding: 2%;
+}
+
+/* favourite */
+.fav{
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+}
+#favourite{
+    margin-top: 0%;
+    background-color: cadetblue;
+}
+.fav-head{
+    padding-top: 30px;
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   color: rgb(48, 46, 46);
+}
+.fav-row{
+    text-align: center;
+    padding: 5% 5%;
+}
+.fav-btn{
+    margin: 10px;
+}
+.fav-cap{
+ color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.fav-i{
+    border-radius: 50%;
+}
+
+/* children */
+.child-head{
+    font-family: 'Rubik Dirt', cursive;
+text-align: center;
+margin-top: 2%;
+}
+.child-head:hover{
+    color: aqua;
+}
+.child-imgs{
+    display: inline;
+    
+}
+.child-img{
+    width: 25%;
+    height: 25%;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 20%;
+}
+.child-img:hover{
+    border-radius: 100%;
+}
+
+/* new arrival */
+#new-arrival{
+    background-image: url(imgs/Beach-pic.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-top: 3%;
+border-bottom: 0px;
+}
+.arrival-head{
+    text-align: center;
+    padding-top: 2%;
+    
+    font-family: 'Rubik Maze', cursive;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+.a-img{
+    width: 100%;
+    object-fit: cover;
+  padding-left: 40px;
+  border-radius: 10%;
+}
+.mens-a{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(76, 73, 69);
+    
+}
+.a-img:hover{
+    transform: scale(2,2);
+    transition: .5s transform;
+    border-radius: 5px;
+}
+#new-arrival{
+    text-align: center;
+}
+hr{
+    width: 5%;
+    border-style: dotted;
+    border-width: 6px;
+    border-bottom: none;
+    border-color: rgb(138, 128, 128);
+margin-top: 5%;
+margin-bottom: 0%;
+
+}
+
+/* bottom */
+#bottom{
+    background-color: rgb(48, 48, 48);
+   margin: 0%;
+}
+.botom{
+margin: 3% 8% 3% 8%
+}
+.bottom-head{
+text-align: center;
+
+}
+.bottom-caption{
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.bottom-caption:hover{
+    color: burlywood;
+}

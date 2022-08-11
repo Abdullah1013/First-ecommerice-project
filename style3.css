@@ -1,0 +1,75 @@
+body{
+    background-image: url(imgs2/women-back.jpg);
+margin: 0px;
+}
+.header{
+    color: aliceblue;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: 'Changa', sans-serif;
+    font-size: 3rem;
+    border: 2px solid white;
+width: 210px;
+}
+.header:hover{
+    background-color: cadetblue;
+color:yellow;
+}
+.head{
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    margin-left: 3%;
+}
+.shoes{
+    border: 1px solid rgb(96, 96, 228);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-image: url(imgs2/women-back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: inline;
+     width: 30%; 
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.shoe-btn{
+ margin: 3% 50% 2% 50%;
+}
+.a-img{
+    object-fit: cover;
+  border-radius: 10%;
+}
+.a-img:hover{
+    transform: scale(2,2);
+    transition: .5s transform;
+    border-radius: 5px;
+}
+hr{
+    width: 5%;
+    border-style: dotted;
+    border-width: 6px;
+    border-bottom: none;
+    border-color: rgb(255, 247, 247);
+margin-top: 3%;
+margin-bottom: 3%;
+}
+/* bottom */
+.bottom{
+    background-color: rgb(3, 29, 29);
+    margin-top: 2%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.bottom-head{
+font-family: 'Dancing Script', cursive;
+color: blanchedalmond;
+margin-bottom: 0%;
+}
+.bottom-head:hover{
+    color:aqua
+}
